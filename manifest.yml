@@ -1,0 +1,11 @@
+---
+applications:
+- name: cfSox
+  memory: 512M
+  host: cfSox
+  domain: cfapps.io
+  env: {
+    }
+  buildpack: https://github.com/ozedoseghale/java-buildpack.git
+  services: {
+    }
